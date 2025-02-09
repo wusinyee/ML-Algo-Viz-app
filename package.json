@@ -8,19 +8,19 @@
     "lucide-react": "^0.475.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.1", // Updated to fix vulnerabilities
-    "web-vitals": "^2.1.0", // Added to fix missing dependency
-    "lodash": "^4.17.21", // Manually updated to patched version
-    "minimatch": "^3.0.5", // Manually updated to patched version
-    "loader-utils": "^2.0.3", // Manually updated to patched version
-    "cross-spawn": "^7.0.5" // Manually updated to patched version
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.0",
+    "lodash": "^4.17.21",
+    "minimatch": "^3.0.5",
+    "loader-utils": "^2.0.3",
+    "cross-spawn": "^7.0.5"
   },
   "resolutions": {
-    "nth-check": "^2.0.1", // Force patched version for indirect dependency
-    "postcss": "^8.4.31" // Force patched version for indirect dependency
+    "nth-check": "^2.0.1",
+    "postcss": "^8.4.31"
   },
   "scripts": {
-    "preinstall": "npx npm-force-resolutions", // Enforce resolutions
+    "preinstall": "npx npm-force-resolutions",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

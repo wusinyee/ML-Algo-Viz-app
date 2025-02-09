@@ -9,15 +9,11 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.0",
-    "lodash": "^4.17.21",
-    "minimatch": "^3.0.5",
-    "loader-utils": "^2.0.3",
-    "cross-spawn": "^7.0.5"
+    "web-vitals": "^2.1.0"
   },
   "resolutions": {
-    "nth-check": "^2.0.1",
-    "postcss": "^8.4.31"
+    "nth-check": "2.0.1", // Removed the `^` symbol
+    "postcss": "8.4.31" // Removed the `^` symbol
   },
   "scripts": {
     "preinstall": "npx npm-force-resolutions",

@@ -8,11 +8,12 @@
     "lucide-react": "^0.475.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1", // Updated to fix vulnerabilities
+    "web-vitals": "^2.1.0" // Added to fix missing dependency
   },
   "resolutions": {
-    "nth-check": "^2.0.1",
-    "postcss": "^8.4.31"
+    "nth-check": "^2.0.1", // Force patched version
+    "postcss": "^8.4.31" // Force patched version
   },
   "scripts": {
     "start": "react-scripts start",
